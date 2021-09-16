@@ -5,7 +5,7 @@ import Character from './Character';
 const Characterlist = ({ characters }) => (
   <ul aria-label="characters" name="characters">
     {characters.map((character) => (
-      <li key={character.id}>
+      <li key={character.image}>
         <Character
           id={character.id}
           name={character.name}
@@ -19,9 +19,9 @@ const Characterlist = ({ characters }) => (
 Characterlist.propTypes = {
   characters: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string.isRequired,
+      id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
-      image: PropTypes.isRequired,
+      image: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

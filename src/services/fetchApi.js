@@ -1,14 +1,11 @@
-const apiURL = 'https://rickandmortyapi.com/api/json/';
+const apiURL = 'https://rickandmortyapi.com/api/character/';
 
 export const fetchCharacters = async () => {
   const response = await fetch(apiURL);
   const json = await response.json();
+  const characters = json.results;
 
-  return json.map((character) => ({
-    id: character.id,
-    name: character.name,
-    image: character.image,
-  }));
+  return characters;
 };
 
 export const fetchCharacterById = async (id) => {
