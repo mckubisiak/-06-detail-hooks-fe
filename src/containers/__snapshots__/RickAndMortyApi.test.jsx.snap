@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RickAndMortyApi renders lists of characters 1`] = `
+<ul
+  aria-label="characters"
+  name="characters"
+>
+  <li>
+    <a
+      href="/1"
+    >
+      Rick Sanchez
+    </a>
+    <img
+      alt="Rick Sanchez"
+      src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/2"
+    >
+      Morty Smith
+    </a>
+    <img
+      alt="Morty Smith"
+      src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/3"
+    >
+      Summer Smith
+    </a>
+    <img
+      alt="Summer Smith"
+      src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/4"
+    >
+      Beth Smith
+    </a>
+    <img
+      alt="Beth Smith"
+      src="https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/5"
+    >
+      Jerry Smith
+    </a>
+    <img
+      alt="Jerry Smith"
+      src="https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/6"
+    >
+      Abadango Cluster Princess
+    </a>
+    <img
+      alt="Abadango Cluster Princess"
+      src="https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/7"
+    >
+      Abradolf Lincler
+    </a>
+    <img
+      alt="Abradolf Lincler"
+      src="https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/8"
+    >
+      Adjudicator Rick
+    </a>
+    <img
+      alt="Adjudicator Rick"
+      src="https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/9"
+    >
+      Agency Director
+    </a>
+    <img
+      alt="Agency Director"
+      src="https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/10"
+    >
+      Alan Rails
+    </a>
+    <img
+      alt="Alan Rails"
+      src="https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/11"
+    >
+      Albert Einstein
+    </a>
+    <img
+      alt="Albert Einstein"
+      src="https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/12"
+    >
+      Alexander
+    </a>
+    <img
+      alt="Alexander"
+      src="https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/13"
+    >
+      Alien Googah
+    </a>
+    <img
+      alt="Alien Googah"
+      src="https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/14"
+    >
+      Alien Morty
+    </a>
+    <img
+      alt="Alien Morty"
+      src="https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/15"
+    >
+      Alien Rick
+    </a>
+    <img
+      alt="Alien Rick"
+      src="https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/16"
+    >
+      Amish Cyborg
+    </a>
+    <img
+      alt="Amish Cyborg"
+      src="https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/17"
+    >
+      Annie
+    </a>
+    <img
+      alt="Annie"
+      src="https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/18"
+    >
+      Antenna Morty
+    </a>
+    <img
+      alt="Antenna Morty"
+      src="https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/19"
+    >
+      Antenna Rick
+    </a>
+    <img
+      alt="Antenna Rick"
+      src="https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+    />
+  </li>
+  <li>
+    <a
+      href="/20"
+    >
+      Ants in my Eyes Johnson
+    </a>
+    <img
+      alt="Ants in my Eyes Johnson"
+      src="https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+    />
+  </li>
+</ul>
+`;

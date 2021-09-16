@@ -12,12 +12,12 @@ export const fetchCharacterById = async (id) => {
   const response = await fetch(`${apiURL}${id}`);
   const json = await response.json();
 
-  const details = {
-    name: json.name,
-    status: json.status,
-    origin: json.origin.name,
-    image: json.image,
-  };
+  // const details = {
+  //   name: json.name,
+  //   status: json.status,
+  //   origin: json.origin.name,
+  //   image: json.image,
+  // };
 
-  return details;
+  return json;
 };

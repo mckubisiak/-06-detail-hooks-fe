@@ -10,12 +10,12 @@ const CharacterDetails = () => {
 
   useEffect(() => {
     const loadDetails = async () => {
-      const charcter = await fetchCharacterById({ id });
+      const charcter = await fetchCharacterById(id);
       setCharacter(charcter);
       setLoading(false);
     };
     loadDetails();
-  }, []);
+  }, [id]);
 
   if (loading) return (
     <img src="https://i.redd.it/o6m7b0l6h6pz.gif" alt="loading spinner" />);
