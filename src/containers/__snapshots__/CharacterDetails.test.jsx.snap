@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chartater detail pag has the details of only a single character 1`] = `
+<a
+  href="/2"
+>
+  Morty Smith
+</a>
+`;
